@@ -1,2 +1,3 @@
 # PlasticBottles
-Framework to recycle swift code across apps
+
+A description of this package.
