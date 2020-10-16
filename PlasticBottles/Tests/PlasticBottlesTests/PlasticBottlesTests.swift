@@ -6,11 +6,12 @@ final class PlasticBottlesTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(PlasticBottles().text, "Hello, World!")
+        //XCTAssertEqual(PlasticBottles().text, "Hello, World!")
     }
     
     func testCreateHexColor() {
-        let color = UIColor(hexString: "FF0000")
+        let color = Bottles.createColorFromHex("#FF0000")
+        //let color = Bottles(//UIColor(hexString: "FF0000")
         XCTAssertEqual(color, .red)
     }
 
