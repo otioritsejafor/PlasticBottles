@@ -21,9 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_23 /* PlasticBottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PlasticBottles.swift */; };
+		7B24136E2539D47000DF986A /* PlasticBottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24136D2539D47000DF986A /* PlasticBottles.swift */; };
+		7B2413742539D5A900DF986A /* PBNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2413732539D5A900DF986A /* PBNetworkingTests.swift */; };
+		7B24137A2539D64F00DF986A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2413792539D64F00DF986A /* Networking.swift */; };
+		OBJ_23 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Color.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_41 /* PlasticBottlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PlasticBottlesTests.swift */; };
+		OBJ_41 /* PBColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PBColorTests.swift */; };
 		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_44 /* PlasticBottles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PlasticBottles::PlasticBottles::Product" /* PlasticBottles.framework */; };
 /* End PBXBuildFile section */
@@ -46,11 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_12 /* PlasticBottlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticBottlesTests.swift; sourceTree = "<group>"; };
+		7B24136D2539D47000DF986A /* PlasticBottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticBottles.swift; sourceTree = "<group>"; };
+		7B2413732539D5A900DF986A /* PBNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBNetworkingTests.swift; sourceTree = "<group>"; };
+		7B2413792539D64F00DF986A /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		OBJ_12 /* PBColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBColorTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* PlasticBottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticBottles.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		"PlasticBottles::PlasticBottles::Product" /* PlasticBottles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlasticBottles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"PlasticBottles::PlasticBottlesTests::Product" /* PlasticBottlesTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlasticBottlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,8 +91,9 @@
 		OBJ_11 /* PlasticBottlesTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* PlasticBottlesTests.swift */,
+				OBJ_12 /* PBColorTests.swift */,
 				OBJ_13 /* XCTestManifests.swift */,
+				7B2413732539D5A900DF986A /* PBNetworkingTests.swift */,
 			);
 			name = PlasticBottlesTests;
 			path = Tests/PlasticBottlesTests;
@@ -101,7 +108,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -110,7 +117,6 @@
 				OBJ_14 /* Products */,
 				OBJ_17 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -124,7 +130,9 @@
 		OBJ_8 /* PlasticBottles */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* PlasticBottles.swift */,
+				OBJ_9 /* Color.swift */,
+				7B2413792539D64F00DF986A /* Networking.swift */,
+				7B24136D2539D47000DF986A /* PlasticBottles.swift */,
 			);
 			name = PlasticBottles;
 			path = Sources/PlasticBottles;
@@ -196,7 +204,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_23 /* PlasticBottles.swift in Sources */,
+				7B24137A2539D64F00DF986A /* Networking.swift in Sources */,
+				7B24136E2539D47000DF986A /* PlasticBottles.swift in Sources */,
+				OBJ_23 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_41 /* PlasticBottlesTests.swift in Sources */,
+				OBJ_41 /* PBColorTests.swift in Sources */,
 				OBJ_42 /* XCTestManifests.swift in Sources */,
+				7B2413742539D5A900DF986A /* PBNetworkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
