@@ -10,12 +10,19 @@ final class PlasticBottlesTests: XCTestCase {
     }
     
     func testCreateHexColor() {
-        let color = Bottles.createColorFromHex("#FF0000")
+        let color = Bottles.hexColor("#FF0000")
         //let color = Bottles(//UIColor(hexString: "FF0000")
         XCTAssertEqual(color, .red)
     }
+    
+    func testSoothingBreezeColor() {
+        let color = Bottles.hexColor("#b2bec3")
+        XCTAssertEqual(color, Bottles.soothingBreeze)
+    }
+    
+    
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testCreateHexColor", testExample),
     ]
 }
