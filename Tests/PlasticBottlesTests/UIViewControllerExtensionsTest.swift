@@ -10,7 +10,7 @@ import XCTest
 #if canImport(UIKit) && !os(watchOS)
 import UIKit
 
-class UIViewExtensionsTest: XCTestCase {
+class UIViewControllerExtensionsTest: XCTestCase {
     
     func testShowSimpleAlert() {
         let viewController = UIViewController()
