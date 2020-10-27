@@ -26,6 +26,8 @@
 		7B24137A2539D64F00DF986A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2413792539D64F00DF986A /* Networking.swift */; };
 		7B9FD60325488525001376F4 /* UIViewExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FD60225488525001376F4 /* UIViewExtensionsTest.swift */; };
 		7B9FD60A25488614001376F4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FD60925488614001376F4 /* UIViewControllerExtensions.swift */; };
+		7B9FD616254896F9001376F4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FD615254896F9001376F4 /* UIViewExtensions.swift */; };
+		7B9FD61D2548A002001376F4 /* UIViewExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FD61C2548A002001376F4 /* UIViewExtensionsTests.swift */; };
 		OBJ_23 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Color.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* PBColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PBColorTests.swift */; };
@@ -57,6 +59,8 @@
 		7B9FD5F52548841A001376F4 /* UIViewExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9FD60225488525001376F4 /* UIViewExtensionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionsTest.swift; sourceTree = "<group>"; };
 		7B9FD60925488614001376F4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		7B9FD615254896F9001376F4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		7B9FD61C2548A002001376F4 /* UIViewExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionsTests.swift; sourceTree = "<group>"; };
 		OBJ_12 /* PBColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBColorTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		OBJ_11 /* PlasticBottlesTests */ = {
 			isa = PBXGroup;
 			children = (
+				7B9FD61C2548A002001376F4 /* UIViewExtensionsTests.swift */,
 				7B9FD60225488525001376F4 /* UIViewExtensionsTest.swift */,
 				OBJ_12 /* PBColorTests.swift */,
 				OBJ_13 /* XCTestManifests.swift */,
@@ -148,6 +153,7 @@
 				7B2413792539D64F00DF986A /* Networking.swift */,
 				7B24136D2539D47000DF986A /* PlasticBottles.swift */,
 				7B9FD60925488614001376F4 /* UIViewControllerExtensions.swift */,
+				7B9FD615254896F9001376F4 /* UIViewExtensions.swift */,
 			);
 			name = PlasticBottles;
 			path = Sources/PlasticBottles;
@@ -281,6 +287,7 @@
 			buildActionMask = 0;
 			files = (
 				7B9FD60A25488614001376F4 /* UIViewControllerExtensions.swift in Sources */,
+				7B9FD616254896F9001376F4 /* UIViewExtensions.swift in Sources */,
 				7B24137A2539D64F00DF986A /* Networking.swift in Sources */,
 				7B24136E2539D47000DF986A /* PlasticBottles.swift in Sources */,
 				OBJ_23 /* Color.swift in Sources */,
@@ -302,6 +309,7 @@
 				OBJ_41 /* PBColorTests.swift in Sources */,
 				OBJ_42 /* XCTestManifests.swift in Sources */,
 				7B9FD60325488525001376F4 /* UIViewExtensionsTest.swift in Sources */,
+				7B9FD61D2548A002001376F4 /* UIViewExtensionsTests.swift in Sources */,
 				7B2413742539D5A900DF986A /* PBNetworkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
